@@ -37,8 +37,8 @@
 # added by VB
 *.elf
 *.hex
-/Lab-03-starter/firmware/Lab-03-starter.X/build/
-/Lab-03-starter/firmware/Lab-03-starter.X/dist/
+build/
+dist/
 *.s~
 *.un~
 *.swp
