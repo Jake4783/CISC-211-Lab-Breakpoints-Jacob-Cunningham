@@ -9,12 +9,12 @@
 /* create a string */
     
 /*** STUDENTS: HINT: this is the string that the C code prints out!  **/
-nameStr: .asciz "Hello. My name is Inigo Montoya."  
+nameStr: .asciz "Hello. My name is Jacob Cunningham."  
  
 /* initialize a global variable that C can access to print the nameStr */
 .global nameStrPtr
 .type nameStrPtr,%gnu_unique_object
-nameStrPtr: .word nameStr   /* Assign the mem loc of nameStr to nameSrPtr */
+nameStrPtr: .word nameStr   /* Assign the mem loc of nameStr to nameStrPtr */
  
 /* Tell the assembler that what follows is in instruction memory    */
 
@@ -67,7 +67,7 @@ asmFunc:
     rsbs r2,r1,0
 
      /* Start of Breakpoint Lab Quiz Section */
-    subs r0,r0,r0  /* STUDENTS! Set a breakpoint at this line! */
+    subs r0,r0,r0  /* Jacob Cunningham! Set a breakpoint at this line! */
     subs r2,r2,r2
     adds r1, r0, 5
     rsbs r2,r1,0
